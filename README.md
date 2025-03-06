@@ -71,6 +71,11 @@ This script will:
 - Activate the DBT environment.
 - Run the DBT models located in the spotify_dbt folder to transform the data.
 
+#### Attention
+- Transformation can be found in spotify_dbt/models/transformation
+- Views can be found in spotify_dbt/models/views
+
+
 #### Step 3: Data Upload to S3
 Once the data is transformed, you can upload the CSV files to S3. Run the following command:
 ```bash
