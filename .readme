@@ -1,0 +1,2 @@
+docker exec -it spotify_postgres psql -U spotify -d spotifydb
+

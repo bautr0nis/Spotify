@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:latest
+    container_name: spotify_postgres
+    restart: always
+    environment:
+      POSTGRES_USER: spotify
+      POSTGRES_PASSWORD: spotify123
+      POSTGRES_DB: spotifydb
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:
