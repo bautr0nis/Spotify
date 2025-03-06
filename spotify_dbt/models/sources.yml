@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: spotifydb
+    database: spotifydb
+    schema: public
+    tables:
+      - name: tracks
+      - name: artists

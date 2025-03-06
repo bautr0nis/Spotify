@@ -10,9 +10,10 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@types/node": "^22.13.8",
+    "@types/node": "^22.13.9",
     "adm-zip": "^0.5.16",
     "aws-sdk": "^2.1692.0",
+    "child_process": "^1.0.2",
     "csv-parser": "^3.2.0",
     "dotenv": "^16.4.7",
     "fast-csv": "^5.0.2",
@@ -24,6 +25,13 @@
   },
   "devDependencies": {
     "@types/adm-zip": "^0.5.7",
-    "@types/pg": "^8.11.11"
+    "@types/jest": "^29.5.14",
+    "@types/pg": "^8.11.11",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.6"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node"
   }
 }

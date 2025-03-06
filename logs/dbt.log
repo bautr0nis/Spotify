@@ -1,0 +1,32 @@
+[0m18:55:29.911203 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110b2df30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111fd2500>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111fd1e40>]}
+
+
+============================== 18:55:29.915394 | c22ae9eb-a74a-4b19-af2b-e624d14c5a1b ==============================
+[0m18:55:29.915394 [info ] [MainThread]: Running with dbt=1.9.2
+[0m18:55:29.915677 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': '/Users/zydrunasbautronis/.dbt', 'log_path': 'logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt init 9-DBT', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m18:55:29.921990 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse logging event dictionary. Failed to parse dir field: expected string or bytes-like object.. Dictionary: {'dir': PosixPath('/Users/zydrunasbautronis/.dbt')}
+[0m18:55:29.922180 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m18:55:53.212440 [debug] [MainThread]: Starter project path: /Users/zydrunasbautronis/Documents/Spotify/dbt-env/lib/python3.10/site-packages/dbt/include/starter_project
+[0m18:55:53.226523 [info ] [MainThread]: 
+Your new dbt project "spotify_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m18:55:53.227047 [info ] [MainThread]: Setting up your profile.
+[0m18:56:47.486463 [info ] [MainThread]: Profile spotify_dbt written to /Users/zydrunasbautronis/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m18:56:47.769998 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 77.9027, "process_in_blocks": "0", "process_kernel_time": 0.171657, "process_mem_max_rss": "103202816", "process_out_blocks": "0", "process_user_time": 0.784046}
+[0m18:56:47.771476 [debug] [MainThread]: Command `dbt init` succeeded at 18:56:47.771179 after 77.90 seconds
+[0m18:56:47.772525 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110b2df30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1130f36a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11302ed10>]}
+[0m18:56:47.773504 [debug] [MainThread]: Flushing usage events
+[0m18:56:48.302929 [debug] [MainThread]: An error was encountered while trying to flush usage events
