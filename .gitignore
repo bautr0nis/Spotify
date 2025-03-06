@@ -5,3 +5,5 @@ docker-compose.yaml
 dbt-env
 3-Load/transform_artists.csv
 3-Load/transform_tracks.csv
+.idea
+coverage
